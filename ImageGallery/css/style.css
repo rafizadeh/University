@@ -1,0 +1,24 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    margin-left: 400px;
+}
+
+.flex-row {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+.imgItem{
+    box-shadow: -2px -4px 20px 0px rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-right: 19px;
+    margin-top: 15px;
+    width: 230px;
+    height: 230px;
+}
