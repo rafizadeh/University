@@ -1,0 +1,85 @@
+:root {
+    --black: #000000;
+    --white: #ffffff;
+    --light-grey: #d8d9db;
+    --buttons-on-hover: #ebebeb;
+    --button-active-state: #bbbcbe;
+    --function-buttons: #df974c;
+    --function-buttons-on-hover: #dfb07e;
+    --function-button-active-state: #dd8d37;
+}
+
+html {
+    box-sizing: border-box;
+    font-size: 30px;
+}
+
+*, 
+*:before, 
+*:after {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #ccc;
+    font-family: "Courier New", Courier, monospace;
+}
+.container{
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 400px;
+    height: 600px;
+}
+.row{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+.buttons{
+    width: 100%;
+}
+.btn{
+    width: 25%;
+    padding: 25px;
+    font-size: 34px;
+    border: 1px solid black;
+}
+.btn:active {
+    background-color: #bbbcbe;
+}
+.btn:hover{
+    background-color:  #ebebeb;
+}
+
+.btn-func {
+    background-color: #df974c;
+    color: white;
+}
+.btn-func:active {
+    background-color: #dd8d37;
+}
+.btn-func:hover {
+    background-color: #dfb07e;
+}
+.screen{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    color: white;
+    background-color: black;
+    width: 100%;
+    padding: 35px;
+}
+.clear {
+    width: 50%;
+}
+.zero {
+    width: 75%;
+}
+.double-zero {
+    width: 100%;
+}
